@@ -10,4 +10,4 @@ A Backend Developer/CTFer,still learning how to use the power of magic.
 - 📫 How to reach me: email me at 2499302531@qq.com🥰.
 - ⚡ Fun fact: my blog: **ec3o.github.io** =v= 🥰welcome to visit!
 
-https://github-readme-stats.vercel.app/api?username=Ec3o
+![Ec3o's github stats](https://github-readme-stats.vercel.app/api?username=Ec3o&theme=radical) 
