@@ -1,31 +1,29 @@
-name: GitHub-Profile-3D-Contribution
-
+name: GitHub-Profile-3D-Contrib
 on:
-  push:
-    branches: ["main"]
-  schedule:
-    - cron: "10 16 * * *"
+  schedule: [{cron: "59 23 * * *"}]
   workflow_dispatch:
+  push: {branches: ["master"]}
 
 jobs:
-  update-profile-3d-contribution:
+  build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
-
-      - name: GitHub-Profile-3D-Contrib
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      # - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+      # - uses: yoshi389111/github-profile-3d-contrib@latest
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.0
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          SETTING_JSON: settings/season.json
+          MAX_REPOS: 250
 
+      - name: Print env ❓
+        run: env | sort
       - name: Commit & Push
-        continue-on-error: true
         run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
+          git config user.name ${{ github.repository_owner }}
+          git config user.email xgqfrms@xgqfrms.xyz
           git add -A .
-          git commit -m "generated"
+          git commit -m "feat: update GitHub 3D Profile"
           git push
