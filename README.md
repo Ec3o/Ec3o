@@ -8,7 +8,7 @@ A Web Frontend/Backend Developer & CTFer,still learning how to use the power of 
 - 🌱 I’m currently learning ...**how to be a great CTFer**.
 - 💬 Ask me about anything i can answer for u:)
 - 📫 How to reach me: email me at 2499302531@qq.com🥰.
-- ⚡ Fun fact: my blog: **Ec3o.fun** =v= 🥰welcome to visit!
+- ⚡ Fun fact: my tech blog: **tech.ec3o.fun** =v= 🥰welcome to visit!
 
 
 ## 📊 GitHub Stats:
