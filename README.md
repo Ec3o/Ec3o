@@ -2,7 +2,7 @@
 
 I'm Ec3o,a student studying in HangZhou Dianzi University
 
-A Backend Developer/CTFer,still learning how to use the power of magic.
+A Web Frontend/Backend Developer & CTFer,still learning how to use the power of magic.
 
 - 🔭 I’m currently working on **computer science**,especially in **web security**
 - 🌱 I’m currently learning ...**how to be a great CTFer**.
